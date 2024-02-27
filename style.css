@@ -1,3 +1,19 @@
+/*
+    Palettes:
+
+    #474448
+    #2d232e
+    #e0ddcf
+    #534b52
+    #f1f0ea
+
+    #22223b
+    #4a4e69
+    #9a8c98
+    #c9ada7
+    #f2e9e4
+*/
+
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +21,8 @@
 
 body {
     font-size: 24px;
+    color: #F2E9E4;
+    background-color: #2D232E;
 }
 
 
@@ -60,4 +78,16 @@ body {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+}
+
+h2 {
+    color: #E0DDCF;
+}
+
+h3 {
+    color: #F2E9E4;
+}
+
+h4 {
+    color: #C9ADA7;
 }
