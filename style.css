@@ -59,7 +59,7 @@ body {
 .oswald-header {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 900;
     font-style: normal;
 }
 
@@ -80,14 +80,92 @@ body {
     font-style: normal;
 }
 
-h2 {
-    color: #E0DDCF;
+.title {
+    text-align: center;
+    color: #ffee32;
+    opacity: 90%;
+    padding-bottom: 1em;
+    font-style: italic;
 }
 
-h3 {
-    color: #F2E9E4;
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background-color: #290025;
+    outline: #cca000 outset;
 }
 
-h4 {
-    color: #C9ADA7;
+#navbar a {
+    color: #ffe169;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #ffe169;
+    color: #290025;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.paragraph {
+    padding-bottom: 1em;
+}
+
+.subCollection {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    font-family: "Namdhinggo", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 1em;
+}
+
+.subCollectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.linkCollection {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.listElements a {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color:#ffee32
+}
+
+.listElements a:hover {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color:#8d841c
 }
