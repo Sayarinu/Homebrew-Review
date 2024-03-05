@@ -171,3 +171,19 @@ body {
     text-decoration: none;
     color:#8d841c
 }
+
+.subheading {
+    text-align: center;
+    color: #ffee32;
+    opacity: 90%;
+    padding-bottom: 1em;
+}
+
+.linkClean {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color:#ffee32;
+}
