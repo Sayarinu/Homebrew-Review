@@ -95,6 +95,9 @@ body {
     overflow: hidden;
     background-color: #290025;
     outline: #cca000 outset;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #navbar a {
